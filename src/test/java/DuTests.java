@@ -1,6 +1,4 @@
 import org.junit.Test;
-import org.junit.contrib.java.lang.system.ExpectedSystemExit;
-
 import java.io.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -13,8 +11,6 @@ public class DuTests {
     private ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
 
     private Path file1 = Paths.get("src", "main", "resources", "1.txt");
-    private ExpectedSystemExit exit = ExpectedSystemExit.none();
-
 
     @Test
     public void differentFlags() {
