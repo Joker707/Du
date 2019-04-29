@@ -1,6 +1,4 @@
-import org.junit.Before;
 import org.junit.Test;
-import org.junit.contrib.java.lang.system.Assertion;
 import org.junit.contrib.java.lang.system.ExpectedSystemExit;
 
 import java.io.*;
